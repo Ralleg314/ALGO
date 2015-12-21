@@ -45,11 +45,6 @@ Z = 200 - (X**2 + Y -11)**2 - (X+Y**2-7)**2
 
 ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=cm.hot)
 
-
-show()
-
-
-
 def func2d(X,Y):
     import math
     return 200 - (X**2 + Y -11)**2 - (X+Y**2-7)**2
